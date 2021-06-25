@@ -1,0 +1,371 @@
+*{
+    margin: 0; padding: 0;
+}
+/*Header Start*/
+header{
+    overflow: hidden;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.h_contain{
+    overflow: hidden;
+    padding: 16px 0;
+}
+.logo{    
+    float: left;
+    padding: 10px 0;
+    /*border: 1px solid red;*/
+    width: 146px;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    float: right;    
+    padding: 11px 0;
+    /*border: 1px solid red;*/
+}
+.menu ul{
+
+}
+.menu ul li{
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+.menu ul li:last-child{
+    padding-right: 0;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 20px;
+    transition: .3s;
+    color: black;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: red;
+}
+/*Header End*/
+/*Banner section Start*/
+.banner{    
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.b_contain{
+    padding: 175px 0;
+    width: 500px;
+}
+.b_contain h1{    
+    color: white;
+    font-size: 54px;
+    font-family: sans-serif;
+    line-height: 57px;
+}
+.b_pragraph{
+    padding: 30px 0;
+}
+.b_pragraph p{    
+    font-family: sans-serif;
+    padding: 6px 0;
+    font-size: 20px;
+    color: white;
+}
+.b_contain button{
+    background-color: #b70404;
+    padding: 18px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-variant-caps: all-petite-caps;
+    cursor: pointer;
+}
+.b_contain button a{  
+}
+/*Banner section End*/
+/*How it works section start*/
+.hiw{
+    background-color: white;
+    overflow: hidden;
+}
+.hiw_contain{
+    padding: 175px 0;
+}
+.hiw_header{
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px 0 75px;
+    font-family: sans-serif;
+}
+.hiw_header h1{
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+    font-variant: unicase;
+}
+.hiw_header p{    
+    line-height: 22px;
+    font-size: 17px;
+    text-align: center;
+}
+
+._3hiw{
+    overflow: hidden;
+}
+.hiw_1{
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    margin-right: 49px;
+    padding-bottom: 75px;
+    margin-right: 0;
+}
+
+
+.hiw_1 img{    
+    width: 50%;
+    margin: 0px 74px 30px;
+}
+.hiw_1 p{
+    width: 80%;
+    padding: 10px 33px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/*How it works section End*/
+/*Video section start*/
+.v_section{
+    background-color: #FAFAFA;
+    overflow: hidden;
+}
+.v_text{
+    width: 49%;
+    float: left;
+    padding: 175px 20px 175px;
+}
+.v_text h1{
+    font-size: 27px;
+    padding: 0px 0px 20px 0;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    line-height: 42px;
+}
+.v_text p{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    padding-bottom: 40px;
+    width: 457px;
+}
+.v_text button{
+    background-color: #B70404;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.v_video{
+    padding: 175px 0px 175px;
+    float: left;
+}
+.v_video img{
+    width: 172%;
+    box-shadow: white;
+}
+/*Video section end*/
+/*Features section Start*/
+.fetures{
+    overflow: hidden;
+    padding: 75px 0;
+}
+.f_element{
+    background-color: white;
+    box-shadow: 0 0 7px 5px #f1f1f1;
+    /* border: 2px solid; */
+    width: 30%;
+    margin: 16px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+.f_element:hover{
+    box-shadow: 0px 0px 20px 20px #f1f1f1;
+}
+
+.f_element img{
+    width: 75px;
+    margin: 20px 110px;
+}
+.f_element h3{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 7px 33px;
+}
+.f_element p{
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 22px 28px;
+}
+.f_button{
+    width: 50%;
+}
+.f_button button{
+    margin: 75px 380px;
+    width: 45%;
+    background-color: white;
+    cursor: pointer;
+    padding: 11px 3px;
+    border: none;
+    box-shadow: 5px 7px 4px 0px #f1f1f1;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 22px;
+    color: #B70404;
+    transition: .3s;
+}
+.f_button button:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 7px 4px 0px #cc3232;
+}
+
+/*Features section End*/
+/*Footer top start*/
+.t_footer{
+    background-color: rgb(32, 32, 32);
+}
+.contact_us{
+    
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    color: white;
+    padding: 75px 0;
+}
+.contact_us h1{
+    color: #fe0000;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.c_phone{
+    margin: 20px 0px 10px 0;
+}
+
+.social_icon a{}
+.social_icon a img{
+    margin: 32px 14px 0px 0;
+    width: 29px;
+}
+
+
+.contact_us img{
+    width: 22px;
+    float: left;
+}
+.contact_us p{
+    margin: 0px 0 0 32px;
+    font-family: sans-serif;
+}
+.contact_us p:hover{
+    color: #fe0000;
+}
+
+.u_link{
+    margin: 20px 0;
+}
+.u_link a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    margin: 67px 0;
+    line-height: 28px;
+}
+.u_link a:hover{
+    color: #fe0000;
+}
+
+.u_link p{
+    margin: 0 0 41px 0;
+    line-height: 25px;
+}
+.u_link p:hover{
+    color: white;
+}
+.button{
+    background-color: red;
+    /* border: 3px solid white; */
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px 0px white;
+    margin: 3px;
+}
+.email{
+    width: 150px;
+    height: 42px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0 10px;
+}
+.button button{
+    padding: 0px 8px;
+    background-color: red;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.button button a{
+    
+}
+/*Footer top End*/
+/*footer section start*/
+footer{
+    background-color: gray;
+}
+.f_content{
+    margin: 23px auto;
+    width: 64%;
+}
+.f_content p{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.f_content p a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+/*footer section End*/
